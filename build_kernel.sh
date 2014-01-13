@@ -14,8 +14,8 @@
 # export CROSS_COMPILE=$(your compiler prefix)
 export ARCH=arm
 #export PATH=$(pwd)/toolchain/arm-eabi-4.6/bin:$PATH
-export PATH=/home/android/CM11/prebuilt/linux-x86/toolchain/linaro-4.7/bin:$PATH
-export CROSS_COMPILE=/home/android/CM11/prebuilt/linux-x86/toolchain/linaro-4.7/bin/arm-eabi-
+export PATH=~/ef39s-kernel/toolchain/linaro-4.7/bin:$PATH
+export CROSS_COMPILE=~/ef39s-kernel/toolchain/linaro-4.7/bin/arm-eabi-
 
 ##############################################################################
 # make zImage
