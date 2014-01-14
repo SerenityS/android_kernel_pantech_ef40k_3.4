@@ -8,9 +8,9 @@
 # 2010-12-29 allydrop     : created
 ###############################################################################
 export ARCH=arm
-export PATH=$(pwd)/toolchain/arm-eabi-4.6/bin:$PATH
-export CROSS_COMPILE=arm-eabi-
-
+#export PATH=$(pwd)/toolchain/arm-eabi-4.6/bin:$PATH
+export PATH=~/ef39s-kernel/toolchain/linaro-4.7/bin:$PATH
+export CROSS_COMPILE=~/ef39s-kernel/toolchain/linaro-4.7/bin/arm-eabi-
 make mrproper
 make O=./obj/KERNEL_OBJ/ clean
 if [ -f ./zImage ]
